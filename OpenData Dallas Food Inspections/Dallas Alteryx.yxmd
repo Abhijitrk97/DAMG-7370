@@ -1,0 +1,1764 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dallas.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Inspection Type" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Inspection Date" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="Inspection Score" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Street Number" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Street Name" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Street Direction" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Street Type" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Street Unit" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Street Address" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Zip Code" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Description - 1" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 1" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 1" size="910" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Memo - 1" size="2326" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 2" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 2" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 2" size="910" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 2" size="2569" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 3" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 3" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 3" size="1043" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 3" size="2397" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 4" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 4" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 4" size="1018" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 4" size="3214" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 5" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 5" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 5" size="910" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 5" size="1823" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 6" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 6" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 6" size="957" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 6" size="1665" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 7" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 7" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 7" size="910" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 7" size="1588" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 8" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 8" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 8" size="1039" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 8" size="1287" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 9" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 9" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 9" size="910" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 9" size="1584" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 10" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 10" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 10" size="910" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 10" size="2087" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 11" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 11" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 11" size="910" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 11" size="1325" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 12" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 12" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 12" size="994" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 12" size="407" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 13" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 13" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 13" size="888" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 13" size="881" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 14" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 14" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 14" size="888" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 14" size="818" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 15" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 15" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 15" size="888" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 15" size="818" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 16" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 16" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 16" size="888" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 16" size="397" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Description - 17" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 17" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 17" size="829" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 17" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Description - 18" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 18" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 18" size="815" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 18" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Violation Description - 19" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 19" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 19" size="815" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 19" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Description - 20" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 20" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 20" size="815" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation  Memo - 20" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Description - 21" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 21" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 21" size="815" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 21" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Description - 22" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 22" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 22" size="815" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 22" size="374" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Description - 23" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 23" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 23" size="492" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 23" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Description - 24" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 24" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 24" size="434" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 24" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Description - 25" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Points - 25" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Violation Detail - 25" size="482" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Violation Memo - 25" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Inspection Month" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="Inspection Year" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Lat Long Location" size="255" source="File: C:\Users\abhij\Downloads\Dallas.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_9b75bd9463ce44a982e547f17318c0be_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="210" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Restaurant Name" selected="False" />
+            <Field field="Inspection Type" selected="False" />
+            <Field field="Inspection Date" selected="False" />
+            <Field field="Inspection Score" selected="False" />
+            <Field field="Street Number" selected="False" />
+            <Field field="Street Name" selected="False" />
+            <Field field="Street Direction" selected="False" />
+            <Field field="Street Type" selected="False" />
+            <Field field="Street Unit" selected="False" />
+            <Field field="Street Address" selected="False" />
+            <Field field="Zip Code" selected="False" />
+            <Field field="Violation Description - 1" selected="True" />
+            <Field field="Violation Points - 1" selected="True" />
+            <Field field="Violation Detail - 1" selected="True" />
+            <Field field="Violation Memo - 1" selected="True" />
+            <Field field="Violation Description - 2" selected="True" />
+            <Field field="Violation Points - 2" selected="True" />
+            <Field field="Violation Detail - 2" selected="True" />
+            <Field field="Violation Memo - 2" selected="True" />
+            <Field field="Violation Description - 3" selected="True" />
+            <Field field="Violation Points - 3" selected="True" />
+            <Field field="Violation Detail - 3" selected="True" />
+            <Field field="Violation Memo - 3" selected="True" />
+            <Field field="Violation Description - 4" selected="True" />
+            <Field field="Violation Points - 4" selected="True" />
+            <Field field="Violation Detail - 4" selected="True" />
+            <Field field="Violation Memo - 4" selected="True" />
+            <Field field="Violation Description - 5" selected="True" />
+            <Field field="Violation Points - 5" selected="True" />
+            <Field field="Violation Detail - 5" selected="True" />
+            <Field field="Violation Memo - 5" selected="True" />
+            <Field field="Violation Description - 6" selected="True" />
+            <Field field="Violation Points - 6" selected="True" />
+            <Field field="Violation Detail - 6" selected="True" />
+            <Field field="Violation Memo - 6" selected="True" />
+            <Field field="Violation Description - 7" selected="True" />
+            <Field field="Violation Points - 7" selected="True" />
+            <Field field="Violation Detail - 7" selected="True" />
+            <Field field="Violation Memo - 7" selected="True" />
+            <Field field="Violation Description - 8" selected="True" />
+            <Field field="Violation Points - 8" selected="True" />
+            <Field field="Violation Detail - 8" selected="True" />
+            <Field field="Violation Memo - 8" selected="True" />
+            <Field field="Violation Description - 9" selected="True" />
+            <Field field="Violation Points - 9" selected="True" />
+            <Field field="Violation Detail - 9" selected="True" />
+            <Field field="Violation Memo - 9" selected="True" />
+            <Field field="Violation Description - 10" selected="True" />
+            <Field field="Violation Points - 10" selected="True" />
+            <Field field="Violation Detail - 10" selected="True" />
+            <Field field="Violation Memo - 10" selected="True" />
+            <Field field="Violation Description - 11" selected="True" />
+            <Field field="Violation Points - 11" selected="True" />
+            <Field field="Violation Detail - 11" selected="True" />
+            <Field field="Violation Memo - 11" selected="True" />
+            <Field field="Violation Description - 12" selected="True" />
+            <Field field="Violation Points - 12" selected="True" />
+            <Field field="Violation Detail - 12" selected="True" />
+            <Field field="Violation Memo - 12" selected="True" />
+            <Field field="Violation Description - 13" selected="True" />
+            <Field field="Violation Points - 13" selected="True" />
+            <Field field="Violation Detail - 13" selected="True" />
+            <Field field="Violation Memo - 13" selected="True" />
+            <Field field="Violation Description - 14" selected="True" />
+            <Field field="Violation Points - 14" selected="True" />
+            <Field field="Violation Detail - 14" selected="True" />
+            <Field field="Violation Memo - 14" selected="True" />
+            <Field field="Violation Description - 15" selected="True" />
+            <Field field="Violation Points - 15" selected="True" />
+            <Field field="Violation Detail - 15" selected="True" />
+            <Field field="Violation Memo - 15" selected="True" />
+            <Field field="Violation Description - 16" selected="True" />
+            <Field field="Violation Points - 16" selected="True" />
+            <Field field="Violation Detail - 16" selected="True" />
+            <Field field="Violation Memo - 16" selected="True" />
+            <Field field="Violation Description - 17" selected="True" />
+            <Field field="Violation Points - 17" selected="True" />
+            <Field field="Violation Detail - 17" selected="True" />
+            <Field field="Violation Memo - 17" selected="True" />
+            <Field field="Violation Description - 18" selected="True" />
+            <Field field="Violation Points - 18" selected="True" />
+            <Field field="Violation Detail - 18" selected="True" />
+            <Field field="Violation Memo - 18" selected="True" />
+            <Field field="Violation Description - 19" selected="True" />
+            <Field field="Violation Points - 19" selected="True" />
+            <Field field="Violation Detail - 19" selected="True" />
+            <Field field="Violation Memo - 19" selected="True" />
+            <Field field="Violation Description - 20" selected="True" />
+            <Field field="Violation Points - 20" selected="True" />
+            <Field field="Violation Detail - 20" selected="True" />
+            <Field field="Violation  Memo - 20" selected="True" />
+            <Field field="Violation Description - 21" selected="True" />
+            <Field field="Violation Points - 21" selected="True" />
+            <Field field="Violation Detail - 21" selected="True" />
+            <Field field="Violation Memo - 21" selected="True" />
+            <Field field="Violation Description - 22" selected="True" />
+            <Field field="Violation Points - 22" selected="True" />
+            <Field field="Violation Detail - 22" selected="True" />
+            <Field field="Violation Memo - 22" selected="True" />
+            <Field field="Violation Description - 23" selected="True" />
+            <Field field="Violation Points - 23" selected="True" />
+            <Field field="Violation Detail - 23" selected="True" />
+            <Field field="Violation Memo - 23" selected="True" />
+            <Field field="Violation Description - 24" selected="True" />
+            <Field field="Violation Points - 24" selected="True" />
+            <Field field="Violation Detail - 24" selected="True" />
+            <Field field="Violation Memo - 24" selected="True" />
+            <Field field="Violation Description - 25" selected="True" />
+            <Field field="Violation Points - 25" selected="True" />
+            <Field field="Violation Detail - 25" selected="True" />
+            <Field field="Violation Memo - 25" selected="True" />
+            <Field field="Inspection Month" selected="False" />
+            <Field field="Inspection Year" selected="False" />
+            <Field field="Lat Long Location" selected="False" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="318" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_1b34d3b52dbc44c897999d6bc8a80940_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_3118767676fd42cf9f776095511c55c3_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="450" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Name</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>String</CreateField_Type>
+          <CreateField_Size>20</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF Contains(Name, 'Description') THEN 'Violation Description' ELSEIF Contains(Name, 'Points')  THEN 'Violation Points' 
+ELSEIF Contains(Name, 'Detail')  THEN 'Violation Detail' 
+ELSEIF Contains(Name, 'Memo')  THEN 'Violation Memo' 
+ELSE 'Null' ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF Contains(Name, 'Description') THEN 'Violation Description'...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="570" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_d983c576e3d946ba86330704246c0609_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_e421a31d47bd44a78c43ee669d54b318_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="678" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+          </GroupFields>
+          <HeaderField field="Name" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="10000" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Inspection Type" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Inspection Date" source="CrossTab:Group:Concat:" type="Date" />
+            <Field name="Inspection Score" source="CrossTab:Group:Concat:" type="Double" />
+            <Field name="Street Number" source="CrossTab:Group:Concat:" type="Double" />
+            <Field name="Street Name" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Street Direction" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Street Type" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Street Unit" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Street Address" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Zip Code" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Inspection Month" source="CrossTab:Group:Concat:" type="Date" />
+            <Field name="Inspection Year" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Lat Long Location" size="255" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Violation_Description" size="10000" source="CrossTab:Header:Name:Violation Description:Concat:" type="V_WString" />
+            <Field name="Violation_Detail" size="10000" source="CrossTab:Header:Name:Violation Detail:Concat:" type="V_WString" />
+            <Field name="Violation_Memo" size="10000" source="CrossTab:Header:Name:Violation Memo:Concat:" type="V_WString" />
+            <Field name="Violation_Points" size="10000" source="CrossTab:Header:Name:Violation Points:Concat:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Restaurant Name" order="Asc" />
+            <Field field="Inspection Type" order="Asc" />
+            <Field field="Inspection Date" order="Asc" />
+            <Field field="Inspection Score" order="Asc" />
+            <Field field="Street Number" order="Asc" />
+            <Field field="Street Name" order="Asc" />
+            <Field field="Street Direction" order="Asc" />
+            <Field field="Street Type" order="Asc" />
+            <Field field="Street Unit" order="Asc" />
+            <Field field="Street Address" order="Asc" />
+            <Field field="Zip Code" order="Asc" />
+            <Field field="Inspection Month" order="Asc" />
+            <Field field="Inspection Year" order="Asc" />
+            <Field field="Lat Long Location" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="822" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Restaurant Name" action="GroupBy" rename="Restaurant Name" />
+            <SummarizeField field="Inspection Type" action="GroupBy" rename="Inspection Type" />
+            <SummarizeField field="Inspection Date" action="GroupBy" rename="Inspection Date" />
+            <SummarizeField field="Inspection Score" action="GroupBy" rename="Inspection Score" />
+            <SummarizeField field="Street Number" action="GroupBy" rename="Street Number" />
+            <SummarizeField field="Street Name" action="GroupBy" rename="Street Name" />
+            <SummarizeField field="Street Direction" action="GroupBy" rename="Street Direction" />
+            <SummarizeField field="Street Type" action="GroupBy" rename="Street Type" />
+            <SummarizeField field="Street Unit" action="GroupBy" rename="Street Unit" />
+            <SummarizeField field="Street Address" action="GroupBy" rename="Street Address" />
+            <SummarizeField field="Zip Code" action="GroupBy" rename="Zip Code" />
+            <SummarizeField field="Lat Long Location" action="GroupBy" rename="Lat Long Location" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="930" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Restaurant_ID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1038" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_2c8b0ef0e46f4844842ff7973813b30e_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="822" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Inspection Type" action="GroupBy" rename="Inspection Type" />
+            <SummarizeField field="Inspection Date" action="GroupBy" rename="Inspection Date" />
+            <SummarizeField field="Inspection Score" action="GroupBy" rename="Inspection Score" />
+            <SummarizeField field="Inspection Month" action="GroupBy" rename="Inspection Month" />
+            <SummarizeField field="Inspection Year" action="GroupBy" rename="Inspection Year" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="930" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Inspection_ID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="822" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Violation_Description" action="GroupBy" rename="Violation_Description" />
+            <SummarizeField field="Violation_Detail" action="GroupBy" rename="Violation_Detail" />
+            <SummarizeField field="Violation_Memo" action="GroupBy" rename="Violation_Memo" />
+            <SummarizeField field="Violation_Points" action="GroupBy" rename="Violation_Points" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="930" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Violation_ID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1074" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_884c81f4f92f46fe847f5f2e098bda9f_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1074" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_5d954de0fe964de8aca9432c9076f5f5_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1482" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:localhost|||[Dallas].[dbo].[Violation]</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="Violation_ID" Dest="Violation_ID" />
+                <Field Source="Violation_Description" Dest="Violation_description" />
+                <Field Source="Violation_Points" Dest="Violation_points" />
+                <Field Source="Violation_Detail" Dest="Violation_detail" />
+                <Field Source="Violation_Memo" Dest="Violation_Memo" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:localhost
+Query=[Dallas].[dbo].[Violation]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1446" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:localhost|||[Dallas].[dbo].[Inspection]</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="Inspection_ID" Dest="Inspection_ID" />
+                <Field Source="Inspection Type" Dest="Inspection_type" />
+                <Field Source="Inspection Date" Dest="Inspection_date" />
+                <Field Source="Inspection Score" Dest="Inspection_score" />
+                <Field Source="Inspection Month" Dest="Inspection_Month" />
+                <Field Source="Inspection Year" Dest="Inspection_Year" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:localhost
+Query=[Dallas].[dbo].[Inspection]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1470" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:localhost|||[Dallas].[dbo].[Restaurant_Info]</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="Restaurant_ID" Dest="Restaurant_ID" />
+                <Field Source="Restaurant Name" Dest="Restaurant_name" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:localhost
+Query=[Dallas].[dbo].[Restaurant_I...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="822" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Street Number" action="GroupBy" rename="Street Number" />
+            <SummarizeField field="Street Name" action="GroupBy" rename="Street Name" />
+            <SummarizeField field="Street Direction" action="GroupBy" rename="Street Direction" />
+            <SummarizeField field="Street Type" action="GroupBy" rename="Street Type" />
+            <SummarizeField field="Street Unit" action="GroupBy" rename="Street Unit" />
+            <SummarizeField field="Street Address" action="GroupBy" rename="Street Address" />
+            <SummarizeField field="Zip Code" action="GroupBy" rename="Zip Code" />
+            <SummarizeField field="Lat Long Location" action="GroupBy" rename="Lat Long Location" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="906" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>GeoLocation_ID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1278" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_cd45f37957d0486ba69907e10e6a7be6_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1242" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:localhost|||[Dallas].[dbo].[GeoLocation]</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="GeoLocation_ID" Dest="GeoLocation_ID" />
+                <Field Source="Street Number" Dest="Street_number" />
+                <Field Source="Street Name" Dest="Street_name" />
+                <Field Source="Street Direction" Dest="Street_direction" />
+                <Field Source="Street Type" Dest="Street_type" />
+                <Field Source="Street Unit" Dest="Street_unit" />
+                <Field Source="Street Address" Dest="Street_address" />
+                <Field Source="Zip Code" Dest="Zip_code" />
+                <Field Source="Lat Long Location" Dest="Lat_long_location" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:localhost
+Query=[Dallas].[dbo].[GeoLocation]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="822" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1026" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Lat Long Location" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Lat Long Location" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Restaurant Name" selected="True" rename="Right_Restaurant Name" input="Right_" />
+                <SelectField field="Right_Inspection Type" selected="True" rename="Right_Inspection Type" input="Right_" />
+                <SelectField field="Right_Inspection Date" selected="True" rename="Right_Inspection Date" input="Right_" />
+                <SelectField field="Right_Inspection Score" selected="True" rename="Right_Inspection Score" input="Right_" />
+                <SelectField field="Right_Street Number" selected="True" rename="Right_Street Number" input="Right_" />
+                <SelectField field="Right_Street Name" selected="True" rename="Right_Street Name" input="Right_" />
+                <SelectField field="Right_Street Direction" selected="True" rename="Right_Street Direction" input="Right_" />
+                <SelectField field="Right_Street Type" selected="True" rename="Right_Street Type" input="Right_" />
+                <SelectField field="Right_Street Unit" selected="True" rename="Right_Street Unit" input="Right_" />
+                <SelectField field="Right_Street Address" selected="True" rename="Right_Street Address" input="Right_" />
+                <SelectField field="Right_Zip Code" selected="True" rename="Right_Zip Code" input="Right_" />
+                <SelectField field="Right_Lat Long Location" selected="True" rename="Right_Lat Long Location" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1218" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Right_Inspection Type" selected="True" rename="Left_Right_Inspection Type" input="Left_" />
+                <SelectField field="Left_Right_Inspection Date" selected="True" rename="Left_Right_Inspection Date" input="Left_" />
+                <SelectField field="Left_Right_Inspection Score" selected="True" rename="Left_Right_Inspection Score" input="Left_" />
+                <SelectField field="Right_Inspection Type" selected="True" rename="Right_Inspection Type" input="Right_" />
+                <SelectField field="Right_Inspection Date" selected="True" rename="Right_Inspection Date" input="Right_" />
+                <SelectField field="Right_Inspection Score" selected="True" rename="Right_Inspection Score" input="Right_" />
+                <SelectField field="Right_Inspection Month" selected="True" rename="Right_Inspection Month" input="Right_" />
+                <SelectField field="Right_Inspection Year" selected="True" rename="Right_Inspection Year" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1338" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Violation_Description" />
+            <Field field="Violation_Detail" />
+            <Field field="Violation_Memo" />
+            <Field field="Violation_Points" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Violation_Description" />
+            <Field field="Violation_Detail" />
+            <Field field="Violation_Memo" />
+            <Field field="Violation_Points" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Violation_Description" selected="True" rename="Right_Violation_Description" input="Right_" />
+                <SelectField field="Right_Violation_Detail" selected="True" rename="Right_Violation_Detail" input="Right_" />
+                <SelectField field="Right_Violation_Memo" selected="True" rename="Right_Violation_Memo" input="Right_" />
+                <SelectField field="Right_Violation_Points" selected="True" rename="Right_Violation_Points" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1446" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Lat Long Location" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Lat Long Location" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Right_Street Number" selected="True" rename="Left_Right_Street Number" input="Left_" />
+                <SelectField field="Left_Right_Street Name" selected="True" rename="Left_Right_Street Name" input="Left_" />
+                <SelectField field="Left_Right_Street Direction" selected="True" rename="Left_Right_Street Direction" input="Left_" />
+                <SelectField field="Left_Right_Street Type" selected="True" rename="Left_Right_Street Type" input="Left_" />
+                <SelectField field="Left_Right_Street Unit" selected="True" rename="Left_Right_Street Unit" input="Left_" />
+                <SelectField field="Left_Right_Street Address" selected="True" rename="Left_Right_Street Address" input="Left_" />
+                <SelectField field="Left_Right_Zip Code" selected="True" rename="Left_Right_Zip Code" input="Left_" />
+                <SelectField field="Left_Right_Lat Long Location" selected="True" rename="Left_Right_Lat Long Location" input="Left_" />
+                <SelectField field="Right_Street Number" selected="True" rename="Right_Street Number" input="Right_" />
+                <SelectField field="Right_Street Name" selected="True" rename="Right_Street Name" input="Right_" />
+                <SelectField field="Right_Street Direction" selected="True" rename="Right_Street Direction" input="Right_" />
+                <SelectField field="Right_Street Type" selected="True" rename="Right_Street Type" input="Right_" />
+                <SelectField field="Right_Street Unit" selected="True" rename="Right_Street Unit" input="Right_" />
+                <SelectField field="Right_Street Address" selected="True" rename="Right_Street Address" input="Right_" />
+                <SelectField field="Right_Zip Code" selected="True" rename="Right_Zip Code" input="Right_" />
+                <SelectField field="Right_Lat Long Location" selected="True" rename="Right_Lat Long Location" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1578" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_9d945f9d4dd345168b61231b0fd7225e_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1578" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="False" />
+            <SelectField field="Inspection Type" selected="False" />
+            <SelectField field="Inspection Date" selected="False" />
+            <SelectField field="Inspection Score" selected="False" />
+            <SelectField field="Street Number" selected="False" />
+            <SelectField field="Street Name" selected="False" />
+            <SelectField field="Street Direction" selected="False" />
+            <SelectField field="Street Type" selected="False" />
+            <SelectField field="Street Unit" selected="False" />
+            <SelectField field="Street Address" selected="False" />
+            <SelectField field="Zip Code" selected="False" />
+            <SelectField field="Inspection Month" selected="False" />
+            <SelectField field="Inspection Year" selected="False" />
+            <SelectField field="Lat Long Location" selected="False" />
+            <SelectField field="Violation_Description" selected="False" />
+            <SelectField field="Violation_Detail" selected="False" />
+            <SelectField field="Violation_Memo" selected="False" />
+            <SelectField field="Violation_Points" selected="False" />
+            <SelectField field="Restaurant_ID" selected="True" />
+            <SelectField field="GeoLocation_ID" selected="True" />
+            <SelectField field="Violation_ID" selected="True" />
+            <SelectField field="Inspection_ID" selected="True" />
+            <SelectField field="Right_Restaurant Name" selected="False" />
+            <SelectField field="Left_Right_Inspection Type" selected="False" />
+            <SelectField field="Left_Right_Inspection Date" selected="False" />
+            <SelectField field="Left_Right_Inspection Score" selected="False" />
+            <SelectField field="Left_Right_Street Number" selected="False" />
+            <SelectField field="Left_Right_Street Name" selected="False" />
+            <SelectField field="Left_Right_Street Direction" selected="False" />
+            <SelectField field="Left_Right_Street Type" selected="False" />
+            <SelectField field="Left_Right_Street Unit" selected="False" />
+            <SelectField field="Left_Right_Street Address" selected="False" />
+            <SelectField field="Left_Right_Zip Code" selected="False" />
+            <SelectField field="Left_Right_Lat Long Location" selected="False" />
+            <SelectField field="Right_Inspection Type2" selected="False" />
+            <SelectField field="Right_Inspection Date2" selected="False" />
+            <SelectField field="Right_Inspection Score2" selected="False" />
+            <SelectField field="Right_Inspection Month" selected="False" />
+            <SelectField field="Right_Inspection Year" selected="False" />
+            <SelectField field="Right_Violation_Description" selected="False" />
+            <SelectField field="Right_Violation_Detail" selected="False" />
+            <SelectField field="Right_Violation_Memo" selected="False" />
+            <SelectField field="Right_Violation_Points" selected="False" />
+            <SelectField field="Right_Street Number" selected="False" />
+            <SelectField field="Right_Street Name" selected="False" />
+            <SelectField field="Right_Street Direction" selected="False" />
+            <SelectField field="Right_Street Type" selected="False" />
+            <SelectField field="Right_Street Unit" selected="False" />
+            <SelectField field="Right_Street Address" selected="False" />
+            <SelectField field="Right_Zip Code" selected="False" />
+            <SelectField field="Right_Lat Long Location" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1662" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Fact_Id</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1854" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_10856_818adee8da40419da4675d546cacd9f3_\Engine_20724_b54031e5a4f744dc835ea6c3ce2a0747_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1314" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant_ID" selected="True" />
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1314" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection_ID" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" type="V_WString" size="19" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1230" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Violation_ID" selected="True" />
+            <SelectField field="Violation_Description" selected="True" type="V_WString" forced="True" size="1000" />
+            <SelectField field="Violation_Points" selected="True" type="V_WString" forced="True" size="1000" />
+            <SelectField field="Violation_Detail" selected="True" type="V_WString" forced="True" size="1000" />
+            <SelectField field="Violation_Memo" selected="True" type="V_WString" forced="True" size="1000" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1074" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="GeoLocation_ID" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1758" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Fact_Id" selected="True" />
+            <SelectField field="Restaurant_ID" selected="True" />
+            <SelectField field="Violation_ID" selected="True" />
+            <SelectField field="GeoLocation_ID" selected="True" />
+            <SelectField field="Inspection_ID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1842" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\abhij\Downloads\factofdallas.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>factofdallas.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="37" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="37" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="38" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Join" />
+      <Destination ToolID="38" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Join" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dallas Alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="2b7e9e93-29fe-4ccd-8137-665e3174d4c2" />
+      <Telemetry>
+        <PreviousWorkflowId value="fd663675-6b4b-43aa-a3c6-d7e4e6dde92b" />
+        <OriginWorkflowId value="fd663675-6b4b-43aa-a3c6-d7e4e6dde92b" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
