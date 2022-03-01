@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cleanedboston.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Businessid" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="businessname" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="property_id" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="dbaname" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="legalowner" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="namelast" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="namefirst" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="descript" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="dayphn" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="licenseno" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="licstatus" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="licensecat" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="issdttm" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="expdttm" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="ViolationID" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="violation" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="viollevel" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="violdesc" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="violdttm" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="violstatus" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="statusdate" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Resultid" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="result" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="resultdttm" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="comments" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="locationid" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="address" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="city" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="state" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="zip" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="location" size="255" source="File: C:\Users\abhij\Downloads\DAMG7370\Team Assignment\Boston data\Cleanedboston.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Businessid" selected="True" />
+            <SelectField field="locationid" selected="True" />
+            <SelectField field="licenseno" selected="True" />
+            <SelectField field="violationid" selected="True" />
+            <SelectField field="Resultid" selected="True" />
+            <SelectField field="businessname" selected="False" />
+            <SelectField field="property_id" selected="False" />
+            <SelectField field="dbaname" selected="False" />
+            <SelectField field="legalowner" selected="False" />
+            <SelectField field="namelast" selected="False" />
+            <SelectField field="namefirst" selected="False" />
+            <SelectField field="descript" selected="False" />
+            <SelectField field="dayphn" selected="False" />
+            <SelectField field="licstatus" selected="False" />
+            <SelectField field="licensecat" selected="False" />
+            <SelectField field="issdttm" selected="False" />
+            <SelectField field="expdttm" selected="False" />
+            <SelectField field="violation" selected="False" />
+            <SelectField field="viollevel" selected="False" />
+            <SelectField field="violdesc" selected="False" />
+            <SelectField field="violdttm" selected="False" />
+            <SelectField field="violstatus" selected="False" />
+            <SelectField field="statusdate" selected="False" />
+            <SelectField field="result" selected="False" />
+            <SelectField field="resultdttm" selected="False" />
+            <SelectField field="comments" selected="False" />
+            <SelectField field="address" selected="False" />
+            <SelectField field="city" selected="False" />
+            <SelectField field="state" selected="False" />
+            <SelectField field="zip" selected="False" />
+            <SelectField field="location" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="366" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Factid</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhij\AppData\Local\Temp\Engine_17588_ef579e0be614443d8355fbccdd204fc0_\Engine_25460_9bab43d503c74b29bbef0efa6afa65f1_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="270" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Businessid" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Businessid - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="642" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:localhost|||[Boston].[dbo].[fact]</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:localhost
+Query=[Boston].[dbo].[fact]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Final step</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="4ddddc95-39e8-4791-bb56-b062de457f33" />
+      <Telemetry>
+        <PreviousWorkflowId value="11c654a2-0aca-4799-afe3-593ae9702df6" />
+        <OriginWorkflowId value="11c654a2-0aca-4799-afe3-593ae9702df6" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
